@@ -3,8 +3,8 @@
 #include <time.h>
 /**
  * main - main file
- * Description : 'negative positive' 
- * Return: 0  (Success)
+ * Description :'negative positive'
+ * Return: 0 (Success)
  */
 int main(void)
 {
