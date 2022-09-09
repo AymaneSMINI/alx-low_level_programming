@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - main file
- * Description: print alphabet
- * Return: 0 (Success)
- */
+* main - main file
+* Description: print alphabet
+* Return: 0 (Success)
+*/
 int main(void)
 {
 	char alpha;
