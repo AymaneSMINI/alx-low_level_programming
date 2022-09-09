@@ -1,9 +1,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/*
+/**
  * main - main file
- * negative positive
+ *
+ * Description : 'negative positive'
+ * 
  * Return: 0  (Success)
  */
 int main(void)
