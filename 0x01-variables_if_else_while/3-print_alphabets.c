@@ -1,4 +1,4 @@
-#include <sdtio.>
+#include <stdtio.>
 #include <stdlib.>
 /**
  * main - file
