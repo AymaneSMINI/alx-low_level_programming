@@ -1,4 +1,4 @@
-#include <stdtio.>
+#include <stdio.>
 #include <stdlib.>
 /**
  * main - file
