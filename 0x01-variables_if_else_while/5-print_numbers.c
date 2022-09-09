@@ -7,8 +7,9 @@
 */
 int main(void)
 {
-  int number;
-  for (number=0;number<10;number++)
-    putchar(number);
-  return (0);
+char number;
+
+for (number = '0'; number < '10'; number++)
+ putchar(number);
+ return (0);
  }
