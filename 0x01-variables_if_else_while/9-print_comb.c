@@ -7,13 +7,16 @@
  */
 int main(void)
 {
-	char combin;
+	int combin;
 
 	for (combin = '0'; combin <= '9'; combin++)
 	{
 		putchar(combin);
+		if (combin != '9')
+		{
 		putchar(',');
 		putchar(' ');
+		}
 	}
 	putchar('\n');
 	return (0);
