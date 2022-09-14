@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * print_long - check the code.
- *
+ * times_table - table.
+ * print_long - long digit
+ * @digit : int argument
  * Return: nothing.
  */
 
