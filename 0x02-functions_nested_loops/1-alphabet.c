@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *function - print_alphabet
- *Description: 'Print _putchar'
- * Return: nothing (Success)
+ * print_alphabet - void function
+ * print lowercase alphabet
+ * Return: nothing (Success).
  */
 void print_alphabet(void)
 {
