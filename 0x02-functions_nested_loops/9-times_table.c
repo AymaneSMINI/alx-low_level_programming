@@ -1,10 +1,6 @@
-#include <unistd.h>
-#include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
-
 /**
- * main - check the code.
+ * print_long - check the code.
  *
  * Return: nothing.
  */
@@ -20,6 +16,7 @@ void print_long(int digit)
 void times_table(void)
 {
     int i, j;
+    
     for (i=0; i <= 9; i++)
     {
         for (j=0; j <= 9; j++)
