@@ -1,17 +1,17 @@
 #include "main.h"
-#include <stdlib.h>
+#include <ctype.h>
 #include <stdio.h>
 /**
- * print_alphabet_x10 - void function
+ * lower - int function
  * islower
  * Return: Always 0.
  */
 int _islower(int c)
 {
-   if (c >= 97 && c <= 122)
+	if (islower(c) > 0)
 	{
 		return (1);
 	}
-    	else 
-        	return (0);
+	else
+		return (0);
 }
