@@ -6,6 +6,9 @@
  * Return: nothing.
  */
 
+/**
+ * times_table - table.
+ */
 void print_long(int digit)
 {
 	if (digit != 0)
