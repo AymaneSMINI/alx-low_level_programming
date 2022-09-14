@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_long - long digit. 
+ * print_long - long digit.
  * @digit : int argument
  * Return: value.
  */
