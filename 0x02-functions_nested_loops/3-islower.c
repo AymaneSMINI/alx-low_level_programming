@@ -2,7 +2,7 @@
 #include <ctype.h>
 #include <stdio.h>
 /**
- * lower - int function
+ * _islower - int function
  * @c: an int argument
  * Description: check if lower
  * islower
