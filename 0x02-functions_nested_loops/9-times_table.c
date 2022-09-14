@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * times_table - table.
- * print_long - long digit
+ * print_long - long digit.
  * @digit : int argument
  * Return: nothing.
  */
@@ -33,7 +33,7 @@ void times_table(void)
 				_putchar(',');
 				_putchar(' ');
 			}
-			if (i * j == 0 )
+			if (i * j == 0)
 				_putchar('0');
 			else
 				print_long(i * j);
