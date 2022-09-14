@@ -1,18 +1,9 @@
-#include <unistd.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-
+#include "main.h"
 /**
  * main - check the code.
  *
  * Return: Always 0.
  */
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
-
 void jack_bauer(void)
 {
     char i, j, k, l, m;
@@ -38,9 +29,4 @@ void jack_bauer(void)
             }
         }
     }
-}
-int main(void)
-{
-    jack_bauer();
-    return (0);
 }
