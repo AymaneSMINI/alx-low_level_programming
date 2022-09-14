@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * add - sum.
  * @a: int argument
