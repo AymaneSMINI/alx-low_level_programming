@@ -3,8 +3,10 @@
 #include <stdio.h>
 /**
  * lower - int function
+ * @c: an int argument
+ * Description: check if lower
  * islower
- * Return: Always 0.
+ * Return: 1 if lower 0 if not
  */
 int _islower(int c)
 {
