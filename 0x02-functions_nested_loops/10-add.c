@@ -1,19 +1,11 @@
-#include "main.h"
-/**
- * print_long - long digit.
- * @digit : int argument
- * Return: value.
- */
-void print_long(int digit)
-{
-	if (digit != 0)
-	{
-		print_long(digit / 10);
-		_putchar('0' + digit % 10);
-	}
-}
+#include "main"
 /**
  * add - sum.
- * Return: 0.
+ * @a: int argument
+ * @b: int argument
+ * Return: value.
  */
 void add(int a, int b)
+{
+	return (a+b);
+}
