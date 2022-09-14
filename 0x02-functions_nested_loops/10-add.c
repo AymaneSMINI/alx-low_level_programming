@@ -4,7 +4,7 @@
  * sum
  * @a: int argument
  * @b: int argument
- * Return; value
+ * Return: value
  */
 int add(int a, int b)
 {
