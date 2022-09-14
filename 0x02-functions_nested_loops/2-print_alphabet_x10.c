@@ -1,15 +1,9 @@
-#include <unistd.h>
-#include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 /**
- * main - file
- * Description: "Print alphabet x 10"
- * Return: 0 Always (Success)
+ * function - print_alphabet_x10
+ * Print alphabet x 10
+ * Return: nothing (Success)
  */
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
 void print_alphabet_x10(void)
 {
     int alpha;
@@ -23,9 +17,4 @@ void print_alphabet_x10(void)
     	}
     	_putchar('\n');
 	}
-}
-int main(void)
-{
-	print_alphabet_x10();
-	return (0);
 }
