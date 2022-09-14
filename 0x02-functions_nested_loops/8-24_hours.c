@@ -7,6 +7,7 @@
 void jack_bauer(void)
 {
 	char i, j, k, l, m;
+
 	m = '9';
 
 	for (i = '0'; i <= '2'; i++)
@@ -28,5 +29,5 @@ void jack_bauer(void)
 				}
 			}
 		}
-    }
+	}
 }
