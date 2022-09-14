@@ -12,10 +12,10 @@
 
 int main(void)
 {
-	long i;
-	char word[] = "_putchar";
+	int i;
+	char word[8] = "_putchar";
 	
-	for (i = 0; i < sizeof(word); i++)
+	for (i = 0; i < 8; i++)
 	    _putchar(word[i]);
 	return (0);
 }
