@@ -1,13 +1,8 @@
 #include "main.h"
 /**
  * print_long - long digit. 
- * times_table - table.
  * @digit : int argument
- * Return: nothing.
- */
-
-/**
- * times_table - table.
+ * Return: value.
  */
 void print_long(int digit)
 {
@@ -17,6 +12,10 @@ void print_long(int digit)
 		_putchar('0' + digit % 10);
 	}
 }
+/**
+ * times_table - table function.
+ * Return: nothing.
+ */
 void times_table(void)
 {
 	int i, j;
