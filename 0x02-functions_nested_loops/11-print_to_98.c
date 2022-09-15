@@ -6,10 +6,10 @@
  */
 void print_long(int n)
 {
-	if (n != 0)
-	{
+	 if (n != 0)
+	{   print_long(n / 10);
 		_putchar(48 + (n % 10));
-		n = n / 10;
+
 	}
 }
 /**
@@ -25,14 +25,32 @@ void print_to_98(int n)
 	{
 		for (i = n; i <= 98; i++)
 		{
-			if (n < 0)
+		    if (i != n)
+                _putchar(',');
+                _putchar(' ');
+			if (i < 0)
+            {
 				_putchar('-');
-			print_long(i);
+				print_long(-i);}
+            else if (i == 0)
+                _putchar(48);
+            else
+                print_long(i);
+
+
 		}
 	}
 	else
 	{
 		for (i = n; i >= 98; i--)
-			print_long(i);
+        {
+            if (i != n)
+                _putchar(',');
+            print_long(i);
+
+		}
+
+
 	}
+	_putchar('\n');
 }
