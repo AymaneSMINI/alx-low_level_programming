@@ -13,7 +13,7 @@ void print_long(int digit)
 	}
 }
 /**
- * times_table - table function.
+ * print_times_table - table function.
  * @n: int argument
  * Return: nothing.
  */
@@ -50,7 +50,7 @@ void print_times_table(int n)
 				else
 					print_long(i * j);
 			}
-			_putchar('\n');	
+			_putchar('\n');
 		}
 	}
 }
