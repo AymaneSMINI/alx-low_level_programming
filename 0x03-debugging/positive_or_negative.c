@@ -1,13 +1,12 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include <time.h>
 /**
- * main - main file
+ * positive_or_negative - function file
  * Description :'negative positive'
  * @n : int argument
  * Return: 0 (Success)
  */
-void main(int n)
+void positive_or_negative(int n)
 {
 	if (n > 0)
 		printf("%d is positive\n", n);
