@@ -26,31 +26,32 @@ void print_to_98(int n)
 		for (i = n; i <= 98; i++)
 		{
 		    if (i != n)
-                _putchar(',');
-                _putchar(' ');
-			if (i < 0)
-            {
-				_putchar('-');
-				print_long(-i);}
-            else if (i == 0)
-                _putchar(48);
-            else
-                print_long(i);
-
-
+		    {
+			    _putchar(',');
+			    _putchar(' ');
+		    }
+		    if (i < 0)
+		    {
+			    _putchar('-');
+			    print_long(-i);
+		    }
+		    else if (i == 0)
+			    _putchar(48);
+		    else
+			    print_long(i);
 		}
 	}
 	else
 	{
 		for (i = n; i >= 98; i--)
-        {
-            if (i != n)
-                _putchar(',');
-            print_long(i);
-
+		{
+			if (i != n)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
+			print_long(i);
 		}
-
-
 	}
 	_putchar('\n');
 }
