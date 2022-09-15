@@ -6,7 +6,7 @@
  */
 void print_long(int n)
 {
-	 if (n != 0)
+	if (n != 0)
 	{   print_long(n / 10);
 		_putchar(48 + (n % 10));
 
