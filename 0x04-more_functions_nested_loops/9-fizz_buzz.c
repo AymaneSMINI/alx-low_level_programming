@@ -9,7 +9,7 @@ void fizz_buzz(void)
 
 	for (i = 1; i < 101; i++)
 	{
-		if (i % 5 && i % 3)
+		if ((i % 5 == 0) && (i % 3 == 0))
 		{
 			_putchar('F');
 			_putchar('i');
@@ -33,7 +33,7 @@ void fizz_buzz(void)
 		else if (i % 5 == 0)
 		{
 			_putchar('B');
-			_putchar('i');
+			_putchar('u');
 			_putchar('z');
 			_putchar('z');
 			_putchar(' ');
