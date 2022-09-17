@@ -9,7 +9,20 @@ void fizz_buzz(void)
 
 	for (i = 1; i < 101; i++)
 	{
-		if (i % 3 == 0)
+		if (i % 5 && i % 3)
+		{
+			_putchar('F');
+			_putchar('i');
+			_putchar('z');
+			_putchar('z');
+			_putchar('B');
+			_putchar('u');
+			_putchar('z');
+			_putchar('z');
+			_putchar(' ');
+			_putchar(' ');
+		}
+		else if (i % 3 == 0)
 		{
 			_putchar('F');
 			_putchar('i');
@@ -23,19 +36,6 @@ void fizz_buzz(void)
 			_putchar('i');
 			_putchar('z');
 			_putchar('z');
-			_putchar(' ');
-		}
-		else if (i % 5 && i % 3)
-		{
-			_putchar('F');
-			_putchar('i');
-			_putchar('z');
-			_putchar('z');
-			_putchar('B');
-			_putchar('u');
-			_putchar('z');
-			_putchar('z');
-			_putchar(' ');
 			_putchar(' ');
 		}
 		else
