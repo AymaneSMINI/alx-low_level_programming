@@ -15,18 +15,35 @@ void fizz_buzz(void)
 			_putchar('i');
 			_putchar('z');
 			_putchar('z');
+			_putchar(' ');
 		}
 		else if (i % 5 == 0)
 		{
-
+			_putchar('B');
+			_putchar('i');
+			_putchar('z');
+			_putchar('z');
+			_putchar(' ');
 		}
 		else if (i % 5 && i % 3)
 		{
-
+			_putchar('F');
+			_putchar('i');
+			_putchar('z');
+			_putchar('z');
+			_putchar('B');
+			_putchar('u');
+			_putchar('z');
+			_putchar('z');
+			_putchar(' ');
+			_putchar(' ');
 		}
 		else
 		{
-
+			if( i >= 10)
+				_putchar(i / 10);
+			_putchar(i % 10);
+			_putchar(' ');
 		}
 	}
 		_putchar('\n');
