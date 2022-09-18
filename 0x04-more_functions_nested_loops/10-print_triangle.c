@@ -1,22 +1,22 @@
 #include "main.h"
-/**
- * print_square - function
- * @size : int argument
- * Return: print diagonal
- */
-void print_square(int size)
+void print_triangle(int size)
 {
-	int i;
-	int j;
+        int i;
+        int j;
+        int k;
 
-	if (size <= 0)
-		_putchar('\n');
-	for (i = 0; i < size; i++)
-	{
-		for (j = 0; j < size; j++)
-		{
-			_putchar('#');
-		}
-		_putchar('\n');
-	}
+        if (size <= 0)
+                _putchar('\n');
+        for (i = 1; i <= size; i++)
+        {
+                for (j = 1; j <= size-i ; j++)
+                {
+                        _putchar(' ');
+                }
+                for (k = size-i; k < size; k++)
+                {
+                        _putchar('#');
+                }
+                _putchar('\n');
+        }
 }
