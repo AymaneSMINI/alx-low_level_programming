@@ -20,7 +20,6 @@ void fizz_buzz(void)
 			_putchar('z');
 			_putchar('z');
 			_putchar(' ');
-			_putchar(' ');
 		}
 		else if (i % 3 == 0)
 		{
