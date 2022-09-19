@@ -10,7 +10,7 @@ void _puts(char *str)
 	int i;
 
 	i = 0;
-	while (i < strlen(str))
+	while (a[i] != '\0')
 	{
 		_putchar(str[i]);
 		i++;
