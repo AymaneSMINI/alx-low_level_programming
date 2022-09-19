@@ -8,6 +8,8 @@
  */
 void print_array(int *a, int n)
 {
+	int i;
+
 	while (a[i] != '\0')
 	{
 		_putchar(a[i]);
