@@ -12,6 +12,7 @@ void print_long(int digit)
 		print_long(digit / 10);
 		_putchar('0' + digit % 10);
 	}
+}
 /**
  * print_array -  function
  * @a: int pointer
