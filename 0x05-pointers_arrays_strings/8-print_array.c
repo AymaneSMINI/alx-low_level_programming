@@ -8,7 +8,7 @@
 void print_long(int digit)
 {
 	if (digit < 0)
-		digit = -digit;
+		digit = -1 * digit;
 	if (digit != 0)
 	{
 		print_long(digit / 10);
