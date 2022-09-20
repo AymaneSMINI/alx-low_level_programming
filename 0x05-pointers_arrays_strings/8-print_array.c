@@ -7,6 +7,8 @@
  */
 void print_long(int digit)
 {
+	if (digit < 0)
+		digit = -digit;
 	if (digit != 0)
 	{
 		print_long(digit / 10);
@@ -25,8 +27,10 @@ void print_array(int *a, int n)
 
 	while (i < n)
 	{
+		if (a[i] < 0)
+			_putchar('-');
 		print_long(a[i]);
-		if (i != (n - 1)) 
+		if (i != (n - 1))
 		{
 			_putchar(',');
 			_putchar(' ');
