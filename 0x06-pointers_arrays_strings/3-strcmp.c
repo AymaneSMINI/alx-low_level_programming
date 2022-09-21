@@ -10,6 +10,6 @@ int _strcmp(char *s1, char *s2)
 {
 	int cmp;
 
-	cmp = strcat(s1, s2);
+	cmp = strcmp(s1, s2);
 	return (cmp);
 }
