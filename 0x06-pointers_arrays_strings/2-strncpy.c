@@ -1,9 +1,10 @@
 #include "main.h"
 #include <string.h>
 /**
- * _stnrcpy - function
+ * _strncpy - function
  * @dest: char pointer
  * @src: char pointer
+ * @n: int argument
  * Return: char pointer
  */
 char *_strncpy(char *dest, char *src, int n)

@@ -1,7 +1,7 @@
 #include "main.h"
 #include <string.h>
 /**
- * _stnrcat - function
+ * _strncat - function
  * @dest: char pointer
  * @src: char pointer
  * @n: int argumment
