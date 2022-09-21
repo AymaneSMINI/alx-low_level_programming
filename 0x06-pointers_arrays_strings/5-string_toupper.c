@@ -1,9 +1,10 @@
 #include "main.h"
 #include <string.h>
-i/**
+/**
  * string_toupper - function
  * Return: char value
  */
+char *string_toupper(char *);
 char *string_toupper(char *a)
 {
 	int i;
