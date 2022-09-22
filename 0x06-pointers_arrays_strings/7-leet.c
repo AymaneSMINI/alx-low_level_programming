@@ -6,9 +6,9 @@
  */
 char *leet(char *str)
 {
-	char l[5] = {'a','e','o','t','l'};
-	char u[5] = {'A','E','O','T','L'};
-	int values[5] = {52,51,48,55,49};
+	char l[5] = {'a', 'e', 'o', 't', 'l'};
+	char u[5] = {'A', 'E', 'O', 'T', 'L'};
+	int values[5] = {52, 51, 48, 55, 49};
 	int i;
 	int j;
 
