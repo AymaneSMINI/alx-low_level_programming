@@ -2,6 +2,7 @@
 #include <string.h>
 /**
  * string_toupper - function
+ * @str: pointer
  * Return: char value
  */
 char *string_toupper(char *str)
