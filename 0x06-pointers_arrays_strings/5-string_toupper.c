@@ -2,20 +2,21 @@
 #include <string.h>
 /**
  * string_toupper - function
- * @a: char pointer
+ * @str: char pointer
  * Return: char value
  */
-char *string_toupper(char *a)
+char *string_toupper(char *str)
 {
 	int i;
 
 	i = 0;
-	while (a[i] != '\0')
+	while (str[i] != '\0')
 	{
-		if (a[i] < 123 && a[i] > 97)
+		if (str[i] < 123 && str[i] > 97)
 		{
-			a[i] = a[i] - 32;
+			str[i] = str[i] - 32;
 			i++;
 		}
 	}
+	return (str);
 }
