@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
  * _memset - function
  * @s: char pointer
@@ -8,11 +9,6 @@
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	int i;
-
-	for (i = 0; i < n; i++)
-	{
-		s[i] = b;
-	}
+	memset(s, b, n * sizeof(char));
 	return s;
 }
