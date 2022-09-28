@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * _puts_recursion - function
  * @s: char pointer
