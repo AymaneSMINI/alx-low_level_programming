@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
  * _print_rev_recursion - function
  * @s: char pointer
@@ -14,7 +15,7 @@ void _print_rev_recursion(char *s)
 		_putchar('\n');
 		return;
 	}
-	_puthcar(*(s + len));
+	_putchar(*(s + len));
 	len--;
 	_print_rev_recursion(s);
 }
