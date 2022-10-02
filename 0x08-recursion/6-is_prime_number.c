@@ -17,7 +17,7 @@ int prime(int i, int n)
 /**
  * is_prime_number - function
  * @n: int argument
- * Return : integer value
+ * Return: integer value
  */
 int is_prime_number(int n)
 {
