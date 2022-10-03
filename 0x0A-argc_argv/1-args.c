@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 /**
  * main - main
@@ -8,6 +7,7 @@
  */
 int main(int argc, char *argv[])
 {
-	printf("%d\n", argc);
+	printf("%d\n", argc - 1);
+	(void) argv;
 	return (0);
 }
