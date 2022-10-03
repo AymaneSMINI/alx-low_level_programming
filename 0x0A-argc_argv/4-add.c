@@ -43,7 +43,7 @@ int main(int argc, char *argv[])
 		for (i = 1; i < argc; i++)
 		{
 			if (isnumber(argv[i]))
-			       result = result + atoi(argv[i]);
+				result = result + atoi(argv[i]);
 			else
 			{
 				printf("Error\n");
