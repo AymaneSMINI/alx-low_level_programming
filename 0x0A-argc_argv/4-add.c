@@ -40,9 +40,9 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		for(i = 1; i < argc; i++)
+		for (i = 1; i < argc; i++)
 		{
-			if(isnumber(argv[i]))
+			if (isnumber(argv[i]))
 			       result = result + atoi(argv[i]);
 			else
 			{
