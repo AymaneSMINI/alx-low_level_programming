@@ -39,6 +39,7 @@ int main(int argc, char *argv[])
 		return (0);
 	}
 	else
+	{
 		for(i = 1; i < argc; i++)
 		{
 			if(isnumber(argv[i]))
@@ -49,6 +50,7 @@ int main(int argc, char *argv[])
 				return (1);
 			}
 		}
+	}
 	printf("%d\n", result);
 	return (0);
 }
