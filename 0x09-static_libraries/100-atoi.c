@@ -6,5 +6,6 @@
  */
 int _atoi(char *s)
 {
-	return (s);
+	(void) s;
+	return (0);
 }
