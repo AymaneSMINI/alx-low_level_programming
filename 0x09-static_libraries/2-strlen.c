@@ -4,4 +4,7 @@
  * @s: string
  * Return: integer
  */
-int _strlen(char *s);
+int _strlen(char *s)
+{
+	return (s);
+}

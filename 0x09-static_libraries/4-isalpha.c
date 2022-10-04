@@ -4,4 +4,7 @@
  * @c: int
  * Return: integer
  */
-int _isalpha(int c);
+int _isalpha(int c)
+{
+	return (c);
+}

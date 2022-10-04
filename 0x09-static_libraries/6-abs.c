@@ -4,4 +4,7 @@
  * @n: int
  * Return: integer
  */
-int _abs(int n);
+int _abs(int n)
+{
+	return (n);
+}

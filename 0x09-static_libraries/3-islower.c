@@ -4,4 +4,7 @@
  * @c: int
  * Return: integer
  */
-int _islower(int c);
+int _islower(int c)
+{
+	return (c);
+}
