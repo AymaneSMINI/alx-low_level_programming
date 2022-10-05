@@ -15,7 +15,7 @@ int main(void)
         printf("failed to allocate memory\n");
         return (1);
     }
-    printf("%sn", s);
+    printf("%s\n", s);
     free(s);
     return (0);
 }
