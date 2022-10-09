@@ -5,7 +5,7 @@
  * alloc_grid - matrix
  * @width: integer parameter
  * @height: integer
- * @Return: integer matrix
+ * Return: integer matrix
  */
 int **alloc_grid(int width, int height)
 {
@@ -13,13 +13,17 @@ int **alloc_grid(int width, int height)
 	int i;
 	int j;
 
-	if ( width <= 0 || height <= 0)
-		return (NULL);	
-	matrix = malloc( height * sizeof(int*));
+	if (width <= 0 || height <= 0)
+		return (NULL);
+	matrix = malloc(height * sizeof(int *));
 	if (matrix == NULL)
 		return (NULL);
 	for (i = 0; i < height; i++)
+	{
 		matrix[i] = malloc(width * sizeof(int));
+		if (matrix[i] == NULL)
+			return (NULL);
+	}
 	for (i = 0; i < height; i++)
 	{
 		for (j = 0; j < width; j++)
