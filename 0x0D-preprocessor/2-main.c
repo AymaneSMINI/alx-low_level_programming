@@ -2,7 +2,8 @@
 #include <stdlib.h>
 /**
  * main - current file
- * Return: 1
+ * Description: here we go
+ * Return: name of current file
  */
 int main(void)
 {
