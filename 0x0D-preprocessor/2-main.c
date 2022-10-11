@@ -2,11 +2,10 @@
 #include <stdlib.h>
 /**
  * main - current file
- * 
- * Return: nothing
+ * Return: 1
  */
 int main(void)
 {
-	printf("%s\n",__FILE__);
-	return (1);
+	printf("%s\n" ,__FILE__);
+	return (0);
 }
