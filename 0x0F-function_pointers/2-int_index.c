@@ -1,4 +1,6 @@
 #include "function_pointers.h"
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * int_index - function
  * @array: integer pointer
@@ -9,14 +11,15 @@
 int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i;
-	int counter;
+	int count;
 
 	if (array == NULL || size < 0)
 		return (-1);
-	counter = 0;
+	count = 0;
 	for (i = 0; i < size; i++)
 	{
-		if (cmp(array[i]))
-			counter++;
+		if (cmp(array[i]) == 1)
+			count++;
 	}
-	return (counter);
+	return (count);
+}
