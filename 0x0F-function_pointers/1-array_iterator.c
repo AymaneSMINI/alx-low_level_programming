@@ -4,11 +4,11 @@
 #include <stddef.h>
 
 /**
- * array_iterator
+ * array_iterator - function
  * @array: integer pointer
  * @size: size_t argument
- *
  * @action: pointer to function
+ * Return: nothing
  */
 
 void array_iterator(int *array, size_t size, void (*action)(int))
