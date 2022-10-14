@@ -6,7 +6,7 @@
  * print_numbers - function
  * @separator: char pointer
  * @n: int argument
- * @Return: nothing
+ * Return: nothing
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
