@@ -15,9 +15,17 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 		printf("Error");
 		return (0);
 	}
-	for (current = *head; current->next; current = current->next)
-		;
 	new->n = (int) n;
-	current->next = new;
+	new->next = NULL;
+	if (*head == NULL)
+	{
+		*head = new;
+	}
+	else
+	{
+		for (current = *head; current->next; current = current->next)
+			;
+		current->next = new;
+	}
 	return (*head);
 }
