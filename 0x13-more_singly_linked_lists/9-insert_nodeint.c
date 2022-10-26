@@ -3,7 +3,7 @@
  * insert_nodeint_at_index - function
  * @head: unsigned
  * @n: int
- * @idc: unsigned int 
+ * @idx: unsigned int
  * Return: list
  */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
@@ -42,5 +42,5 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 			tmp->next = new;
 		}
 	}
-	return (*head);
+	return (new);
 }
