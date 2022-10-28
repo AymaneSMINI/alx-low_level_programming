@@ -12,7 +12,7 @@ unsigned int binary_to_uint(const char *b)
 		return (0);
 	sum = 0;
 	length = strlen(b) - 1;
-	for (i = length, p = 1; i >= 0; i--, p*=2)
+	for (i = length, p = 1; i >= 0; i--, p *= 2)
 	{
 		if (b[i] > 57 || b[i] < 48)
 			return (0);
