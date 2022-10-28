@@ -1,5 +1,4 @@
 #include "main.h"
-#include <math.h>
 /**
  * binary_to_uint - function
  * @b: char pointer
@@ -7,20 +6,19 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	int length, i, sum;
+	int length, i, sum, p;
 	unsigned int bits;
 
 	if (b == NULL)
 		return (0);
 	sum = 0;
 	length = strlen(b) - 1;
-	bits = atoi(b);
-	for (i = 0; i <= length; i++)
+	for (i = length, p = 1; i >= 0; i--, p*=2)
 	{
-		if (b[length - i] > 57 || b[length - i] < 48)
+		if (b[i] > 57 || b[i] < 48)
 			return (0);
-		sum = sum + (bits % 10) * pow(2, i);
-		bits = bits / 10;
+		if (b[i] & 1)
+			sum += p;
 	}
 	return (sum);
 }
