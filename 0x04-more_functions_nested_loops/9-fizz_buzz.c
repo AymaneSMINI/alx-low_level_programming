@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * fizz_buzz - function
+ * main - function
  * Return: print
  */
-void fizz_buzz(void)
+int main(void)
 {
 	int i;
 
@@ -46,4 +46,5 @@ void fizz_buzz(void)
 		}
 	}
 		_putchar('\n');
+		return (0);
 }
