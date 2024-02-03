@@ -3,8 +3,10 @@
 #include "search_algos.h"
 /**
  * linear_search - function
- *
- * Return: index where velue located (Success)
+ * @array: int pointer
+ * @value: int argument
+ * @size: size argument
+ * Return: index where value located (Success) -1 (failed)
  */
 int linear_search(int *array, size_t size, int value)
 {
@@ -12,7 +14,7 @@ int linear_search(int *array, size_t size, int value)
 
 	for (i = 0; i < (int) size; i++)
 	{
-		printf("Value checked array[%d] = [%d]", i, array[i]);
+		printf("Value checked array[%d] = [%d]\n", i, array[i]);
 		if (array[i] == value)
 		{
 			return (i);
